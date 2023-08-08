@@ -8,6 +8,14 @@ body {
     flex-direction: column;
 }
 
+.header-wrapper {
+    max-width: 70rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px;
+    margin-bottom: 70px;
+}
+
 header, footer {
     background-color: #1F2937;
 }
@@ -15,13 +23,20 @@ header, footer {
 a {
     text-decoration: none;
 }
+nav {
+    margin-bottom: 70px;
+}
 
 ul {
     list-style-type: none;
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding-left: px;
+    gap: 30px;
+    padding-left: 0px;
+}
+
+h1 {
+    margin: 0px;
 }
 
 .hero-main {
@@ -35,6 +50,10 @@ ul {
     color: #E5E7EB;
 }
 
+.hero-secondary {
+    margin: 10px 0px;
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -44,4 +63,23 @@ ul {
  .logo a {
     text-decoration: none;
     color: inherit;
+ }
+
+.header-info {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.header-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 7px 25px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+ .quote {
+    background-color: #E5E7EB;
  }
