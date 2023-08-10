@@ -3,7 +3,6 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -129,6 +128,50 @@ figure img {
     color: #1F2937;
     font-weight: 800;
     font-size: 20px;
-    width: 52rem;
-    align-self: flex-end;
+    width: 48rem;
+    text-align: right;
+}
+
+.call-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0px;
+}
+
+.action-call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 7px;
+    width: 60rem;
+    padding: 45px 40px;
+}
+
+.call-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.banner-button {
+    font-weight: bold;
+    color: #F9FAF8;
+    padding: 7px 25px;
+    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+}
+
+.action-call h3,
+.action-call p {
+    margin: 0px;
+}
+
+footer {
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px 0px;
 }
